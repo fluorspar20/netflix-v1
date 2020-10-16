@@ -23,6 +23,9 @@
   font-size: 0.8rem;
   max-width: 360px;
   height: 80px;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .banner_button {
