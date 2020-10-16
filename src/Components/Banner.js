@@ -27,6 +27,7 @@ function Banner() {
     }
 
     return (
+        <>
         <header className="banner" style={{
             backgroundSize: "cover",
             backgroundImage: `url(https://image.tmdb.org/t/p/original${movie?.backdrop_path})`,
@@ -40,9 +41,11 @@ function Banner() {
             </div>
             <h1 className="banner_description"> {truncate(movie?.overview, 150)} </h1>
         </div>
-        <div className="banner_fadeBottom"></div>
+        
 
         </header>
+        <div className="banner_fadeBottom"></div>
+        </>
     )
 }
 
